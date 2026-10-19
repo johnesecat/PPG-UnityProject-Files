@@ -1,0 +1,3027 @@
+fileFormatVersion: 2
+guid: 2e97492c9be49de43a11afd466e31bbd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: bloodSplatter0029
+  - first:
+      213: 21300002
+    second: bloodSplatter0009
+  - first:
+      213: 21300004
+    second: bloodSplatter0003
+  - first:
+      213: 21300006
+    second: 0031
+  - first:
+      213: 21300008
+    second: 0024
+  - first:
+      213: 21300010
+    second: bloodSplatter0005
+  - first:
+      213: 21300012
+    second: 0012
+  - first:
+      213: 21300014
+    second: bloodSplatter0019
+  - first:
+      213: 21300016
+    second: bloodSplatter0010
+  - first:
+      213: 21300018
+    second: 0028
+  - first:
+      213: 21300020
+    second: bloodSplatter0023
+  - first:
+      213: 21300022
+    second: bloodSplatter0014
+  - first:
+      213: 21300024
+    second: bloodSplatter0012
+  - first:
+      213: 21300026
+    second: 0007
+  - first:
+      213: 21300028
+    second: bloodSplatter0026
+  - first:
+      213: 21300030
+    second: 0009
+  - first:
+      213: 21300032
+    second: bloodSplatter0025
+  - first:
+      213: 21300034
+    second: bloodSplatter0024
+  - first:
+      213: 21300036
+    second: bloodSplatter0008
+  - first:
+      213: 21300038
+    second: 0019
+  - first:
+      213: 21300040
+    second: bloodSplatter0017
+  - first:
+      213: 21300042
+    second: 0025
+  - first:
+      213: 21300044
+    second: bloodSplatter0027
+  - first:
+      213: 21300046
+    second: bloodSplatter0021
+  - first:
+      213: 21300048
+    second: 0032
+  - first:
+      213: 21300050
+    second: bloodSplatter0032
+  - first:
+      213: 21300052
+    second: bloodSplatter0006
+  - first:
+      213: 21300054
+    second: bloodSplatter0015
+  - first:
+      213: 21300056
+    second: 0015
+  - first:
+      213: 21300058
+    second: bloodSplatter0018
+  - first:
+      213: 21300060
+    second: bloodSplatter0030
+  - first:
+      213: 21300062
+    second: bloodSplatter0002
+  - first:
+      213: 21300064
+    second: 0029
+  - first:
+      213: 21300066
+    second: 0010
+  - first:
+      213: 21300068
+    second: 0017
+  - first:
+      213: 21300070
+    second: bloodSplatter0016
+  - first:
+      213: 21300072
+    second: blastMark4
+  - first:
+      213: 21300074
+    second: 0002
+  - first:
+      213: 21300076
+    second: bloodSplatter0011
+  - first:
+      213: 21300078
+    second: 0001
+  - first:
+      213: 21300080
+    second: 0004
+  - first:
+      213: 21300082
+    second: blastMark3
+  - first:
+      213: 21300084
+    second: 0026
+  - first:
+      213: 21300086
+    second: 0014
+  - first:
+      213: 21300088
+    second: 0013
+  - first:
+      213: 21300090
+    second: 0016
+  - first:
+      213: 21300092
+    second: 0011
+  - first:
+      213: 21300094
+    second: 0008
+  - first:
+      213: 21300096
+    second: 0006
+  - first:
+      213: 21300098
+    second: 0020
+  - first:
+      213: 21300100
+    second: 0023
+  - first:
+      213: 21300102
+    second: blastMark2
+  - first:
+      213: 21300104
+    second: bloodSplatter0022
+  - first:
+      213: 21300106
+    second: 0005
+  - first:
+      213: 21300108
+    second: bloodSplatter0013
+  - first:
+      213: 21300110
+    second: 0018
+  - first:
+      213: 21300112
+    second: bloodSplatter0028
+  - first:
+      213: 21300114
+    second: 0003
+  - first:
+      213: 21300116
+    second: bloodSplatter0007
+  - first:
+      213: 21300118
+    second: 0030
+  - first:
+      213: 21300120
+    second: 0021
+  - first:
+      213: 21300122
+    second: 0027
+  - first:
+      213: 21300124
+    second: blastMark
+  - first:
+      213: 21300126
+    second: bloodSplatter0020
+  - first:
+      213: 21300128
+    second: bloodSplatter0001
+  - first:
+      213: 21300130
+    second: bloodSplatter0031
+  - first:
+      213: 21300132
+    second: bloodSplatter0004
+  - first:
+      213: 21300134
+    second: 0022
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 25
+  maxTextureSize: 1024
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 35
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bloodSplatter0029
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape:
+      - - {x: -7, y: 3}
+        - {x: -12, y: -4}
+        - {x: -12, y: -10}
+        - {x: -10, y: -13}
+        - {x: -6, y: -13}
+        - {x: -3, y: -11}
+        - {x: 1, y: 4}
+        - {x: 1, y: 6}
+        - {x: -2, y: 7}
+      - - {x: -8, y: 9.000001}
+        - {x: -7, y: 6}
+        - {x: -4, y: 6}
+        - {x: -2, y: 8}
+        - {x: -3, y: 11}
+        - {x: -6, y: 11}
+      - - {x: 3, y: 15}
+        - {x: 4, y: 12}
+        - {x: 8, y: 12}
+        - {x: 10, y: 14}
+        - {x: 9.000001, y: 17}
+        - {x: 5, y: 17}
+      - - {x: -1, y: 13}
+        - {x: 2, y: 14}
+        - {x: 2, y: 17}
+        - {x: -1, y: 18.000002}
+        - {x: -3, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12d6bed611e44aed98a86cac371047d7
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodSplatter0009
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape:
+      - - {x: 13, y: -8}
+        - {x: 13, y: 1}
+        - {x: 5, y: 6}
+        - {x: 9.000001, y: 15}
+        - {x: 5, y: 16}
+        - {x: -3, y: 16}
+        - {x: -15, y: 8}
+        - {x: -15, y: 0}
+        - {x: -14, y: -11}
+        - {x: -11, y: -12}
+        - {x: 8, y: -12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1621f047eb549489cce41ca15a96d9c
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodSplatter0003
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape:
+      - - {x: 9.000001, y: -2}
+        - {x: 11, y: -4}
+        - {x: 14, y: -3}
+        - {x: 14, y: 0}
+        - {x: 12, y: 2}
+        - {x: 9.000001, y: 1}
+      - - {x: -5, y: 5}
+        - {x: -5, y: 1}
+        - {x: -4, y: -1}
+        - {x: 0, y: -1}
+        - {x: 1, y: 1}
+        - {x: 1, y: 4}
+        - {x: 0, y: 5}
+      - - {x: 8, y: 12}
+        - {x: 0, y: 10}
+        - {x: -1, y: 7}
+        - {x: 1, y: 4}
+        - {x: 10, y: 4}
+        - {x: 14, y: 5}
+        - {x: 14, y: 10}
+        - {x: 13, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f43432e75b9467e82f53bf893591d9b
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0031
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 66
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5882b9e3451340318553c3d04ade5697
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0024
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 66
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b7e5c4d78547569f42c7fe171e46f3
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodSplatter0005
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 132
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape:
+      - - {x: 2, y: -13}
+        - {x: 7, y: -13}
+        - {x: 14, y: -11}
+        - {x: 14, y: 1}
+        - {x: 13, y: 4}
+        - {x: 0, y: 4}
+        - {x: 0, y: -4}
+      - - {x: -8, y: 2}
+        - {x: -14, y: 0}
+        - {x: -15, y: -2}
+        - {x: -15, y: -5}
+        - {x: -11, y: -6}
+        - {x: -7, y: -6}
+        - {x: -4, y: -2}
+        - {x: -4, y: 0}
+        - {x: -5, y: 2}
+      - - {x: -7, y: 11}
+        - {x: -13, y: 6}
+        - {x: -12, y: 3}
+        - {x: -8, y: 2}
+        - {x: -4, y: 2}
+        - {x: 0, y: 6}
+        - {x: -1, y: 9.000001}
+        - {x: -5, y: 11}
+      - - {x: 6, y: 8}
+        - {x: 9.000001, y: 5}
+        - {x: 11, y: 5}
+        - {x: 13, y: 7}
+        - {x: 12, y: 10}
+        - {x: 8, y: 11}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93fc0b90e71498bb171e1789132c621
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0012
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 132
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape:
+      - - {x: -6, y: 4}
+        - {x: -4, y: 2}
+        - {x: -1, y: 3}
+        - {x: -1, y: 6}
+        - {x: -3, y: 8}
+        - {x: -6, y: 7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c7445959a9c4723ba5dcc0b4a5afc9d
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodSplatter0019
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 66
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape:
+      - - {x: -10, y: 5}
+        - {x: -6, y: 5}
+        - {x: -7, y: 5}
+        - {x: -12, y: 3}
+        - {x: -18.000002, y: -1}
+        - {x: -18.000002, y: -4}
+        - {x: -16, y: -8}
+        - {x: -11, y: -10}
+        - {x: -5, y: -8}
+        - {x: -6, y: -5}
+        - {x: -4, y: -2}
+        - {x: -5, y: -5}
+        - {x: -3, y: -7}
+        - {x: 5, y: -11}
+        - {x: 7, y: -11}
+        - {x: 9.000001, y: -9.000001}
+        - {x: 9.000001, y: 13}
+        - {x: -16, y: 13}
+        - {x: -17, y: 10}
+        - {x: -15, y: 7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 741293e9a91d43fe8fb3b7435c23464b
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodSplatter0010
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 132
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape:
+      - - {x: 0, y: -7}
+        - {x: 4, y: -10}
+        - {x: 8, y: -10}
+        - {x: 12, y: -8}
+        - {x: 17, y: 7}
+        - {x: 15, y: 9.000001}
+        - {x: 12, y: 9.000001}
+        - {x: 0, y: 0}
+      - - {x: -12, y: 8}
+        - {x: -12, y: 0}
+        - {x: -11, y: -1}
+        - {x: 3, y: -1}
+        - {x: 8, y: 1}
+        - {x: 8, y: 8}
+        - {x: 7, y: 11}
+        - {x: 2, y: 13}
+        - {x: -6, y: 13}
+      - - {x: 4, y: 12}
+        - {x: 7, y: 13}
+        - {x: 7, y: 16}
+        - {x: 4, y: 17}
+        - {x: 2, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d44504166704b5181873604ebd19701
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0028
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape:
+      - - {x: -3, y: 2}
+        - {x: -3, y: 0}
+        - {x: 0, y: -3}
+        - {x: 3, y: -2}
+        - {x: 3, y: 2}
+        - {x: 1, y: 4}
+        - {x: -1, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9126c8fc96ab404fbf5a994dc2001405
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodSplatter0023
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 66
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape:
+      - - {x: -4, y: 16}
+        - {x: -11, y: 13}
+        - {x: -11, y: -10}
+        - {x: 0, y: -10}
+        - {x: 4, y: 3}
+        - {x: 4, y: 14}
+        - {x: -1, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd9742da7b3c4e68b2217b5f90e3b233
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodSplatter0014
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape:
+      - - {x: 4, y: 6}
+        - {x: 3, y: 1}
+        - {x: 3, y: -1}
+        - {x: 3, y: 4}
+        - {x: 2, y: 10}
+        - {x: -1, y: 12}
+        - {x: -7, y: 12}
+        - {x: -14, y: 4}
+        - {x: -14, y: -8}
+        - {x: -12, y: -14}
+        - {x: -7, y: -16}
+        - {x: 7, y: -16}
+        - {x: 12, y: -8}
+        - {x: 13, y: 1}
+        - {x: 13, y: 8}
+        - {x: 11, y: 10}
+      - - {x: -18.000002, y: 3}
+        - {x: -16, y: 1}
+        - {x: -13, y: 2}
+        - {x: -13, y: 5}
+        - {x: -15, y: 7}
+        - {x: -18.000002, y: 6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 594e1d07d3d247458e89c687343305f3
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodSplatter0012
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape:
+      - - {x: 2, y: 2}
+        - {x: -1, y: 1}
+        - {x: -1, y: -13}
+        - {x: 2, y: -15}
+        - {x: 4, y: -15}
+        - {x: 10, y: -11}
+        - {x: 12, y: -1}
+        - {x: 11, y: 2}
+      - - {x: -12, y: 1}
+        - {x: -9.000001, y: -4}
+        - {x: -6, y: -3}
+        - {x: -5, y: 1}
+        - {x: -7, y: 3}
+        - {x: -10, y: 3}
+      - - {x: -6, y: 19}
+        - {x: -8, y: 11}
+        - {x: -8, y: 2}
+        - {x: 1, y: 2}
+        - {x: 8, y: 7}
+        - {x: 8, y: 14}
+        - {x: 5, y: 19}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15720f576207448b887727fcd1eb3a88
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0007
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 66
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape:
+      - - {x: 5, y: 5}
+        - {x: 4, y: 3}
+        - {x: 4, y: -2}
+        - {x: 9.000001, y: -2}
+        - {x: 11, y: -1}
+        - {x: 11, y: 2}
+        - {x: 10, y: 5}
+      - - {x: -6, y: 3}
+        - {x: -6, y: 2}
+        - {x: -4, y: 0}
+        - {x: -3, y: 0}
+        - {x: 0, y: 3}
+        - {x: 0, y: 5}
+        - {x: -3, y: 6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a8759dc1fb94673aabe580b73e75df9
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodSplatter0026
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 66
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape:
+      - - {x: -10, y: -13}
+        - {x: -8, y: -15}
+        - {x: -5, y: -14}
+        - {x: -5, y: -10}
+        - {x: -7, y: -8}
+        - {x: -10, y: -9.000001}
+      - - {x: 11, y: -10}
+        - {x: 14, y: -9.000001}
+        - {x: 14, y: -6}
+        - {x: 11, y: -5}
+        - {x: 9.000001, y: -7}
+      - - {x: 4, y: 15}
+        - {x: -7, y: 15}
+        - {x: -7, y: -8}
+        - {x: 7, y: -8}
+        - {x: 12, y: -3}
+        - {x: 12, y: 6}
+        - {x: 8, y: 11}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60bea686c6584f279b655c071d9b0fab
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0009
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b26b075ee9146f6b3099653a0e76df6
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodSplatter0025
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 66
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape:
+      - - {x: 13, y: 11}
+        - {x: -4, y: 9.000001}
+        - {x: -5, y: 7}
+        - {x: -5, y: 2}
+        - {x: -3, y: 0}
+        - {x: 0, y: 1}
+        - {x: 12, y: 2}
+        - {x: 15, y: 7}
+        - {x: 15, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c59733d1702c4e0b9507587411019420
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodSplatter0024
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 132
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape:
+      - - {x: -5, y: 13}
+        - {x: -12, y: 13}
+        - {x: -15, y: 10}
+        - {x: -15, y: -8}
+        - {x: -13, y: -11}
+        - {x: 0, y: -11}
+        - {x: 4, y: -3}
+        - {x: 10, y: 6}
+        - {x: 9.000001, y: 9.000001}
+        - {x: 4, y: 10}
+      - - {x: 10, y: 4}
+        - {x: 13, y: 1}
+        - {x: 16, y: 2}
+        - {x: 16, y: 5}
+        - {x: 13, y: 8}
+        - {x: 10, y: 7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a003f4a0b94b75b76784e4d7cf8df3
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodSplatter0008
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 132
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape:
+      - - {x: 2, y: 12}
+        - {x: -3, y: 11}
+        - {x: -3, y: -11}
+        - {x: 2, y: -15}
+        - {x: 11, y: -15}
+        - {x: 11, y: 10}
+        - {x: 8, y: 12}
+      - - {x: -12, y: 6}
+        - {x: -15, y: 4}
+        - {x: -17, y: 0}
+        - {x: -17, y: -3}
+        - {x: -12, y: -7}
+        - {x: -10, y: -7}
+        - {x: -5, y: -5}
+        - {x: -5, y: 5}
+        - {x: -8, y: 6}
+      - - {x: -10, y: 13}
+        - {x: -12, y: 10}
+        - {x: -11, y: 7}
+        - {x: -6, y: 7}
+        - {x: -4, y: 9.000001}
+        - {x: -4, y: 12}
+        - {x: -6, y: 14}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ddc5392cee8444bb890c6b3d9746c2d
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0019
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 132
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43fabb5a1ea14228bc53d7718eaf94a5
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodSplatter0017
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 132
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape:
+      - - {x: 12, y: -13}
+        - {x: 12, y: 10}
+        - {x: 9.000001, y: 15}
+        - {x: -1, y: 15}
+        - {x: -10, y: 10}
+        - {x: -15, y: 7}
+        - {x: -15, y: 3}
+        - {x: -14, y: -9.000001}
+        - {x: -13, y: -12}
+        - {x: -9.000001, y: -15}
+        - {x: -6, y: -13}
+        - {x: 3, y: -11}
+        - {x: 10, y: -15}
+        - {x: 11, y: -15}
+      - - {x: -8, y: 11}
+        - {x: -5, y: 12}
+        - {x: -5, y: 15}
+        - {x: -8, y: 16}
+        - {x: -10, y: 14}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a446ddbb31a146e58b9b00faad133fe3
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0025
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 198
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8ec4ba0924485b863005041f4be303
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodSplatter0027
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 198
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape:
+      - - {x: 8, y: -2}
+        - {x: 12, y: -5}
+        - {x: 15, y: -4}
+        - {x: 15, y: 0}
+        - {x: 13, y: 2}
+        - {x: 8, y: 0}
+      - - {x: -9.000001, y: 9.000001}
+        - {x: -11, y: 8}
+        - {x: -11, y: 2}
+        - {x: -3, y: 2}
+        - {x: -2, y: 4}
+        - {x: -3, y: 7}
+        - {x: -5, y: 9.000001}
+      - - {x: 9.000001, y: 7}
+        - {x: 8, y: 5}
+        - {x: 9.000001, y: 2}
+        - {x: 14, y: 2}
+        - {x: 17, y: 3}
+        - {x: 17, y: 6}
+        - {x: 15, y: 7}
+      - - {x: -6, y: 9.000001}
+        - {x: -3, y: 10}
+        - {x: -3, y: 13}
+        - {x: -6, y: 14}
+        - {x: -8, y: 12}
+      - - {x: -2, y: 14}
+        - {x: -1, y: 11}
+        - {x: 2, y: 11}
+        - {x: 4, y: 13}
+        - {x: 3, y: 16}
+        - {x: 0, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 872dc0bc82444e3aa1752a39810276a7
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodSplatter0021
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 264
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape:
+      - - {x: 9.000001, y: 11}
+        - {x: 7, y: 14}
+        - {x: -1, y: 14}
+        - {x: -12, y: 9.000001}
+        - {x: -12, y: -14}
+        - {x: -11, y: -15}
+        - {x: 3, y: -15}
+        - {x: 7, y: -14}
+        - {x: -1, y: -4}
+        - {x: 6, y: 6}
+        - {x: 9.000001, y: 8}
+      - - {x: 9.000001, y: -14}
+        - {x: 12, y: -13}
+        - {x: 12, y: -10}
+        - {x: 9.000001, y: -9.000001}
+        - {x: 7, y: -11}
+      - - {x: 7, y: -4}
+        - {x: 7, y: -5}
+        - {x: 9.000001, y: -7}
+        - {x: 10, y: -7}
+        - {x: 13, y: -4}
+        - {x: 13, y: -2}
+        - {x: 10, y: -1}
+      - - {x: 10, y: 1}
+        - {x: 12, y: -1}
+        - {x: 15, y: 0}
+        - {x: 15, y: 3}
+        - {x: 13, y: 5}
+        - {x: 10, y: 4}
+      - - {x: -16, y: 11}
+        - {x: -16, y: 4}
+        - {x: -14, y: 3}
+        - {x: -12, y: 3}
+        - {x: -10, y: 4}
+        - {x: -10, y: 7}
+        - {x: -12, y: 11}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40bf33bb46a34698a764d3b49f9a6800
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0032
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 264
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677ae8fbbc5d45de831e7934c1d5858a
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodSplatter0032
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 198
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -15, y: 8}
+        - {x: -17, y: 4}
+        - {x: -16, y: 1}
+        - {x: -13, y: 1}
+        - {x: 6, y: -13}
+        - {x: 11, y: -13}
+        - {x: 11, y: 10}
+      - - {x: -14, y: -4}
+        - {x: -10, y: -9.000001}
+        - {x: -7, y: -7}
+        - {x: -7, y: -3}
+        - {x: -9.000001, y: 0}
+        - {x: -14, y: -2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9e05435e2f24e938697736a6a3eabac
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodSplatter0006
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 264
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape:
+      - - {x: 5, y: 1}
+        - {x: 5, y: -9.000001}
+        - {x: 8, y: -12}
+        - {x: 11, y: -11}
+        - {x: 15, y: -6}
+        - {x: 15, y: -4}
+        - {x: 13, y: 1}
+      - - {x: -12, y: -1}
+        - {x: -16, y: -8}
+        - {x: -16, y: -10}
+        - {x: -14, y: -11}
+        - {x: -10, y: -11}
+        - {x: -6, y: -5}
+        - {x: -6, y: -2}
+        - {x: -9.000001, y: -1}
+      - - {x: 9.000001, y: 1}
+        - {x: 12, y: 2}
+        - {x: 12, y: 5}
+        - {x: 9.000001, y: 6}
+        - {x: 7, y: 4}
+      - - {x: -3, y: 13}
+        - {x: -8, y: 10}
+        - {x: -8, y: 5}
+        - {x: -7, y: 3}
+        - {x: -1, y: 3}
+        - {x: 9.000001, y: 5}
+        - {x: 13, y: 11}
+        - {x: 13, y: 13}
+        - {x: 11, y: 14}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a32285577c4f67870ed03da0308ffe
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodSplatter0015
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 330
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape:
+      - - {x: 1, y: -5}
+        - {x: -3, y: -9.000001}
+        - {x: -3, y: -11}
+        - {x: -1, y: -13}
+        - {x: 3, y: -13}
+        - {x: 7, y: -10}
+        - {x: 7, y: -8}
+        - {x: 6, y: -6}
+      - - {x: 5, y: 14}
+        - {x: -13, y: 14}
+        - {x: -13, y: 10}
+        - {x: -7, y: -3}
+        - {x: -3, y: -4}
+        - {x: 1, y: -4}
+        - {x: 3, y: -3}
+        - {x: 7, y: 9.000001}
+        - {x: 7, y: 11}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2435e014b65242099a3aca5141480349
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0015
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 198
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7d1c2fa5959439c8a1c09fdbf1b11b9
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodSplatter0018
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 330
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape:
+      - - {x: -7, y: -15}
+        - {x: -4, y: -14}
+        - {x: -4, y: -11}
+        - {x: -7, y: -10}
+        - {x: -9.000001, y: -12}
+      - - {x: 3, y: 11}
+        - {x: 2, y: 13}
+        - {x: -2, y: 13}
+        - {x: -9.000001, y: 12}
+        - {x: -16, y: 0}
+        - {x: -16, y: -12}
+        - {x: -4, y: -12}
+        - {x: 2, y: -5}
+        - {x: 3, y: 2}
+      - - {x: 15, y: 1}
+        - {x: 5, y: 1}
+        - {x: 3, y: -2}
+        - {x: 3, y: -10}
+        - {x: 4, y: -11}
+        - {x: 11, y: -11}
+        - {x: 13, y: -9.000001}
+        - {x: 16, y: -5}
+        - {x: 16, y: -1}
+      - - {x: 9.000001, y: 2}
+        - {x: 12, y: 3}
+        - {x: 12, y: 6}
+        - {x: 9.000001, y: 7}
+        - {x: 7, y: 5}
+      - - {x: 3, y: 8}
+        - {x: 4, y: 6}
+        - {x: 8, y: 6}
+        - {x: 13, y: 9.000001}
+        - {x: 13, y: 14}
+        - {x: 10, y: 15}
+        - {x: 4, y: 13}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6b3981acd6645d680b56ed6ccb1fe8c
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodSplatter0030
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 198
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape:
+      - - {x: -8, y: 14}
+        - {x: -9.000001, y: 13}
+        - {x: -9.000001, y: 6}
+        - {x: -8, y: 0}
+        - {x: 5, y: -8}
+        - {x: 9.000001, y: -8}
+        - {x: 11, y: -7}
+        - {x: 13, y: -3}
+        - {x: 13, y: 8}
+        - {x: 8, y: 14}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 117f2fe521dd4e7f8acc021e8b7b27b9
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodSplatter0002
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 396
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape:
+      - - {x: 10, y: -14}
+        - {x: 13, y: -13}
+        - {x: 13, y: -10}
+        - {x: 10, y: -9.000001}
+        - {x: 8, y: -11}
+      - - {x: -5, y: -13}
+        - {x: -2, y: -12}
+        - {x: -2, y: -9.000001}
+        - {x: -5, y: -8}
+        - {x: -7, y: -10}
+      - - {x: 9.000001, y: -9.000001}
+        - {x: 12, y: -8}
+        - {x: 12, y: -5}
+        - {x: 9.000001, y: -4}
+        - {x: 7, y: -6}
+      - - {x: 8, y: 0}
+        - {x: 10, y: -2}
+        - {x: 13, y: -1}
+        - {x: 13, y: 2}
+        - {x: 11, y: 4}
+        - {x: 8, y: 3}
+      - - {x: -5, y: 1}
+        - {x: -3, y: -1}
+        - {x: 0, y: 0}
+        - {x: 0, y: 3}
+        - {x: -2, y: 5}
+        - {x: -5, y: 4}
+      - - {x: -2, y: 6}
+        - {x: -1, y: 4}
+        - {x: 2, y: 4}
+        - {x: 4, y: 5}
+        - {x: 4, y: 7}
+        - {x: 2, y: 10}
+        - {x: 0, y: 10}
+        - {x: -2, y: 9.000001}
+      - - {x: 4, y: 7}
+        - {x: 5, y: 5}
+        - {x: 7, y: 5}
+        - {x: 12, y: 7}
+        - {x: 12, y: 11}
+        - {x: 11, y: 13}
+        - {x: 8, y: 13}
+        - {x: 4, y: 11}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52651b9b7bd64c5d84bc60bea5b0ef98
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0029
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 330
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape:
+      - - {x: -10, y: -3}
+        - {x: -10, y: -5}
+        - {x: -8, y: -7}
+        - {x: -6, y: -7}
+        - {x: -3, y: -4}
+        - {x: -4, y: -1}
+        - {x: -8, y: -1}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc42ff2b0524491a88c94ba55c179259
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0010
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 198
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape:
+      - - {x: -3, y: 0}
+        - {x: -4, y: -3}
+        - {x: -4, y: -5}
+        - {x: -1, y: -7}
+        - {x: 5, y: -7}
+        - {x: 5, y: 0}
+      - - {x: 7, y: 2}
+        - {x: 10, y: 3}
+        - {x: 10, y: 6}
+        - {x: 7, y: 7}
+        - {x: 5, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e4c81d272784fe1b58b3feb9d33f791
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0017
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 264
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape:
+      - - {x: 8, y: -5}
+        - {x: 9.000001, y: -7}
+        - {x: 12, y: -7}
+        - {x: 14, y: -6}
+        - {x: 14, y: -3}
+        - {x: 13, y: -1}
+        - {x: 11, y: -1}
+        - {x: 8, y: -3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d230b6fa9d1a47f48d9cc0c93877f285
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodSplatter0016
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 264
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape:
+      - - {x: 5, y: -3}
+        - {x: 3, y: -7}
+        - {x: 3, y: -10}
+        - {x: 4, y: -11}
+        - {x: 9.000001, y: -11}
+        - {x: 13, y: -10}
+        - {x: 15, y: -7}
+        - {x: 11, y: -3}
+      - - {x: -13, y: 7}
+        - {x: -17, y: -2}
+        - {x: -17, y: -4}
+        - {x: -16, y: -5}
+        - {x: -8, y: -5}
+        - {x: 5, y: -4}
+        - {x: 17, y: 2}
+        - {x: 17, y: 7}
+      - - {x: -7, y: 9.000001}
+        - {x: -5, y: 7}
+        - {x: -2, y: 8}
+        - {x: -2, y: 11}
+        - {x: -4, y: 13}
+        - {x: -7, y: 12}
+      - - {x: -1, y: 12}
+        - {x: 2, y: 13}
+        - {x: 2, y: 16}
+        - {x: -1, y: 17}
+        - {x: -3, y: 15}
+      - - {x: 5, y: 12}
+        - {x: 8, y: 13}
+        - {x: 8, y: 16}
+        - {x: 5, y: 17}
+        - {x: 3, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6da7ae4d8454beca1c449a0f805611a
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blastMark4
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 264
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape:
+      - - {x: 11, y: 10}
+        - {x: 5, y: 14}
+        - {x: -2, y: 14}
+        - {x: -11, y: 6}
+        - {x: -12, y: -8}
+        - {x: -10, y: -10}
+        - {x: -7, y: -10}
+        - {x: -2, y: -13}
+        - {x: 0, y: -14}
+        - {x: 5, y: -14}
+        - {x: 11, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e50ad4a71a4fc2a4238dd0eb2dbdbc
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0002
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 330
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape:
+      - - {x: 1, y: -2}
+        - {x: 4, y: -1}
+        - {x: 4, y: 2}
+        - {x: 1, y: 3}
+        - {x: -1, y: 1}
+      - - {x: -2, y: 12}
+        - {x: 1, y: 8}
+        - {x: 4, y: 9.000001}
+        - {x: 4, y: 12}
+        - {x: 1, y: 15}
+        - {x: -1, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f265cc5c2d0d4634ae7f0af0be5fdcdd
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodSplatter0011
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 396
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape:
+      - - {x: 4, y: 15}
+        - {x: -6, y: 15}
+        - {x: -9.000001, y: 13}
+        - {x: -9.000001, y: -6}
+        - {x: -7, y: -13}
+        - {x: 1, y: -15}
+        - {x: 6, y: -15}
+        - {x: 10, y: -10}
+        - {x: 10, y: -3}
+        - {x: 9.000001, y: -2}
+      - - {x: 8, y: -1}
+        - {x: 8, y: -3}
+        - {x: 11, y: -6}
+        - {x: 13, y: -6}
+        - {x: 15, y: -4}
+        - {x: 16, y: 1}
+        - {x: 13, y: 3}
+      - - {x: 12, y: 6}
+        - {x: 15, y: 7}
+        - {x: 15, y: 10}
+        - {x: 12, y: 11}
+        - {x: 10, y: 9.000001}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0ad34e430b948408670c6e92bd4ab6a
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0001
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 396
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape:
+      - - {x: -1, y: 4}
+        - {x: -6, y: -1}
+        - {x: -6, y: -2}
+        - {x: -1, y: -6}
+        - {x: 6, y: -3}
+        - {x: 6, y: 2}
+        - {x: 2, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d1d23cdf0224ba1bfbf932aa915fa94
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0004
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 396
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 522f3c42a6094320983d7c221a70182b
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blastMark3
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 198
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape:
+      - - {x: -3, y: 11}
+        - {x: -8, y: 10}
+        - {x: -13, y: 2}
+        - {x: -13, y: -7}
+        - {x: -7, y: -13}
+        - {x: 0, y: -17}
+        - {x: 3, y: -17}
+        - {x: 10, y: -14}
+        - {x: 15, y: -1}
+        - {x: 15, y: 7}
+        - {x: 11, y: 11}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e0e4c384c14ae7b394a1b1fe0f3487
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0026
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 264
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd9275522794b21a9533735eee1536b
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0014
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 330
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape:
+      - - {x: 0, y: 5}
+        - {x: -3, y: 5}
+        - {x: -4, y: 3}
+        - {x: -4, y: 0}
+        - {x: -2, y: -2}
+        - {x: 0, y: -2}
+        - {x: 2, y: 0}
+        - {x: 2, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0741f85e6408425596bb63d6386d4bcb
+      internalID: 21300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0013
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 330
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape:
+      - - {x: -2, y: 5}
+        - {x: -3, y: 2}
+        - {x: 1, y: -2}
+        - {x: 4, y: -2}
+        - {x: 5, y: 1}
+        - {x: 5, y: 4}
+        - {x: 2, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ef03157bee4c98b836c6d0a84b3bd7
+      internalID: 21300088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0016
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 396
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b713ba35f54ef69dcc314178c60b6f
+      internalID: 21300090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0011
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 396
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 271421cb73cd46a1a8a5083507aee24a
+      internalID: 21300092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0008
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 330
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape:
+      - - {x: -1, y: 3}
+        - {x: -6, y: 0}
+        - {x: -6, y: -3}
+        - {x: -5, y: -5}
+        - {x: -3, y: -5}
+        - {x: 2, y: -1}
+        - {x: 2, y: 1}
+        - {x: 0, y: 3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f9c7eb0aa9c44f3a59cc787e98c886d
+      internalID: 21300094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0006
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 396
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b01b5ee9a8cf4a4281e9ecd5fe90dd3c
+      internalID: 21300096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0020
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f8807adef34a819736105b99dfd5e4
+      internalID: 21300098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0023
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape:
+      - - {x: 3, y: 3}
+        - {x: 4, y: 0}
+        - {x: 7, y: 0}
+        - {x: 9.000001, y: 2}
+        - {x: 8, y: 5}
+        - {x: 5, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5bf031b33594e65ae144630ceb9b8da
+      internalID: 21300100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blastMark2
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape:
+      - - {x: 5, y: 10}
+        - {x: -7, y: 10}
+        - {x: -12, y: 9.000001}
+        - {x: -12, y: -11}
+        - {x: 2, y: -11}
+        - {x: 12, y: -6}
+        - {x: 14, y: -2}
+        - {x: 14, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f967caf889724a72b051617cd5e50e40
+      internalID: 21300102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodSplatter0022
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape:
+      - - {x: -1, y: 13}
+        - {x: -9.000001, y: 11}
+        - {x: -17, y: 3}
+        - {x: -17, y: -1}
+        - {x: -16, y: -4}
+        - {x: -6, y: -10}
+        - {x: 0, y: -15}
+        - {x: 7, y: -15}
+        - {x: 8, y: -14}
+        - {x: 8, y: 13}
+      - - {x: 11, y: -4}
+        - {x: 13, y: -6}
+        - {x: 16, y: -5}
+        - {x: 16, y: -2}
+        - {x: 14, y: 0}
+        - {x: 11, y: -1}
+      - - {x: -7, y: 2}
+        - {x: -7, y: 3}
+        - {x: -7, y: 2}
+        - {x: -6, y: 1}
+        - {x: -6, y: 2}
+      - - {x: -12, y: 8}
+        - {x: -9.000001, y: 9.000001}
+        - {x: -9.000001, y: 12}
+        - {x: -12, y: 13}
+        - {x: -14, y: 11}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 767aeff0a67f457f8ff2905b265c9358
+      internalID: 21300104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0005
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape:
+      - - {x: -3, y: 3}
+        - {x: -4, y: 2}
+        - {x: -4, y: -1}
+        - {x: -1, y: -4}
+        - {x: 2, y: -4}
+        - {x: 3, y: -1}
+        - {x: 3, y: 2}
+        - {x: 2, y: 3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e49c9dfb304e41f4ae3a069570f1219a
+      internalID: 21300106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodSplatter0013
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 66
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape:
+      - - {x: -4, y: -19}
+        - {x: -1, y: -18.000002}
+        - {x: -1, y: -15}
+        - {x: -4, y: -14}
+        - {x: -6, y: -16}
+      - - {x: -12, y: 8}
+        - {x: -15, y: 3}
+        - {x: -15, y: -3}
+        - {x: -10, y: -13}
+        - {x: -4, y: -13}
+        - {x: 2, y: -11}
+        - {x: 2, y: 4}
+        - {x: -1, y: 8}
+      - - {x: 2, y: 3}
+        - {x: 5, y: 4}
+        - {x: 5, y: 7}
+        - {x: 2, y: 8}
+        - {x: 0, y: 6}
+      - - {x: 7, y: 7}
+        - {x: 10, y: 8}
+        - {x: 10, y: 11}
+        - {x: 7, y: 12}
+        - {x: 5, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8edacdef4004459e974592833eff202a
+      internalID: 21300108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0018
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 132
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2dd4e5ae02543aea00befd4f1287a62
+      internalID: 21300110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodSplatter0028
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 198
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape:
+      - - {x: -8, y: 12}
+        - {x: -8, y: 7}
+        - {x: -11, y: -3}
+        - {x: -11, y: -14}
+        - {x: -10, y: -16}
+        - {x: -7, y: -16}
+        - {x: -1, y: -11}
+        - {x: 1, y: 5}
+        - {x: 1, y: 6}
+        - {x: -5, y: 13}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2186077b29ce456b95528542167f79c0
+      internalID: 21300112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0003
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 66
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 081eb4a4f6294e1582004c4d550bada1
+      internalID: 21300114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodSplatter0007
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 132
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape:
+      - - {x: -10, y: 0}
+        - {x: -12, y: -2}
+        - {x: -12, y: -10}
+        - {x: -5, y: -15}
+        - {x: 2, y: -15}
+        - {x: 6, y: -13}
+        - {x: 6, y: -8}
+        - {x: -2, y: 0}
+      - - {x: 7, y: -3}
+        - {x: 5, y: -4}
+        - {x: 5, y: -8}
+        - {x: 6, y: -10}
+        - {x: 8, y: -10}
+        - {x: 11, y: -9.000001}
+        - {x: 11, y: -3}
+      - - {x: 4, y: 6}
+        - {x: 2, y: 3}
+        - {x: 4, y: -1}
+        - {x: 12, y: -1}
+        - {x: 14, y: 0}
+        - {x: 14, y: 4}
+        - {x: 9.000001, y: 6}
+      - - {x: -13, y: 9.000001}
+        - {x: -15, y: 7}
+        - {x: -15, y: 5}
+        - {x: -10, y: 0}
+        - {x: -6, y: 0}
+        - {x: -5, y: 2}
+        - {x: -5, y: 6}
+        - {x: -8, y: 8}
+      - - {x: -4, y: 11}
+        - {x: -1, y: 8}
+        - {x: 2, y: 9.000001}
+        - {x: 2, y: 11}
+        - {x: -1, y: 14}
+        - {x: -3, y: 14}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09283bd887834754aae6177d8f67fbe9
+      internalID: 21300116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0030
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 198
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape:
+      - - {x: -4, y: -9.000001}
+        - {x: -2, y: -11}
+        - {x: 1, y: -10}
+        - {x: 1, y: -7}
+        - {x: -1, y: -5}
+        - {x: -4, y: -6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5daa02ff82f84f76af1caa54563e9877
+      internalID: 21300118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0021
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 66
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape:
+      - - {x: 0, y: -13}
+        - {x: 3, y: -12}
+        - {x: 3, y: -9.000001}
+        - {x: 0, y: -8}
+        - {x: -2, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0800984e9ca64975bdc5336c123b5589
+      internalID: 21300120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0027
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 264
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape:
+      - - {x: -2, y: 3}
+        - {x: 1, y: 4}
+        - {x: 1, y: 7}
+        - {x: -2, y: 8}
+        - {x: -4, y: 6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e24cdfc9b8a64fe8b4dc7b74daf60590
+      internalID: 21300122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blastMark
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape:
+      - - {x: -1, y: 13}
+        - {x: -7, y: 13}
+        - {x: -12, y: 3}
+        - {x: -12, y: -4}
+        - {x: -9.000001, y: -9.000001}
+        - {x: -8, y: -10}
+        - {x: 12, y: -10}
+        - {x: 12, y: 7}
+        - {x: 5, y: 11}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4e91f6b14304ee78f7f41c6a3e5696e
+      internalID: 21300124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodSplatter0020
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 66
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape:
+      - - {x: 3, y: 5}
+        - {x: -6, y: 2}
+        - {x: -14, y: -6}
+        - {x: -14, y: -11}
+        - {x: -13, y: -12}
+        - {x: 4, y: -12}
+        - {x: 10, y: -4}
+        - {x: 10, y: 3}
+        - {x: 7, y: 5}
+      - - {x: 15, y: -3}
+        - {x: 18.000002, y: -2}
+        - {x: 18.000002, y: 1}
+        - {x: 15, y: 2}
+        - {x: 13, y: 0}
+      - - {x: -9.000001, y: 11}
+        - {x: -9.000001, y: -1}
+        - {x: -2, y: -1}
+        - {x: -1, y: 0}
+        - {x: -1, y: 8}
+        - {x: -4, y: 11}
+      - - {x: -3, y: 10}
+        - {x: 0, y: 11}
+        - {x: 0, y: 14}
+        - {x: -3, y: 15}
+        - {x: -5, y: 13}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7329f0cb88c64d2c820c0aa8670cbfa1
+      internalID: 21300126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodSplatter0001
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 330
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape:
+      - - {x: -3, y: 16}
+        - {x: -5, y: 13}
+        - {x: -4, y: 10}
+        - {x: -6, y: 11}
+        - {x: -16, y: 13}
+        - {x: -16, y: -9.000001}
+        - {x: -11, y: -8}
+        - {x: -7, y: -7}
+        - {x: -4, y: -2}
+        - {x: -4, y: 1}
+        - {x: -7, y: 6}
+        - {x: -4, y: 2}
+        - {x: -4, y: 0}
+        - {x: 2, y: -13}
+        - {x: 11, y: -13}
+        - {x: 11, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d442b9665504ad29c4e667c1e6793fd
+      internalID: 21300128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodSplatter0031
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape:
+      - - {x: -9.000001, y: -12}
+        - {x: -6, y: -15}
+        - {x: -3, y: -14}
+        - {x: -3, y: -11}
+        - {x: -6, y: -7}
+        - {x: -9.000001, y: -8}
+      - - {x: -4, y: -3}
+        - {x: -4, y: -4}
+        - {x: 0, y: -7}
+        - {x: 3, y: -6}
+        - {x: 3, y: -3}
+        - {x: 0, y: 0}
+        - {x: -1, y: 0}
+      - - {x: -16, y: -4}
+        - {x: -14, y: -5}
+        - {x: -7, y: -5}
+        - {x: -5, y: -2}
+        - {x: -5, y: 4}
+        - {x: -6, y: 5}
+        - {x: -10, y: 5}
+        - {x: -16, y: 2}
+      - - {x: 3, y: 15}
+        - {x: -3, y: 15}
+        - {x: -4, y: 12}
+        - {x: -4, y: 7}
+        - {x: 4, y: -5}
+        - {x: 6, y: -5}
+        - {x: 9.000001, y: -4}
+        - {x: 10, y: 0}
+        - {x: 10, y: 6}
+        - {x: 5, y: 14}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93a21f36d2f745acb98ef5c38780367f
+      internalID: 21300130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodSplatter0004
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 132
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape:
+      - - {x: 8, y: -16}
+        - {x: 11, y: -15}
+        - {x: 11, y: -12}
+        - {x: 8, y: -11}
+        - {x: 6, y: -13}
+      - - {x: 3, y: -4}
+        - {x: 3, y: -8}
+        - {x: 8, y: -10}
+        - {x: 14, y: -10}
+        - {x: 15, y: -9.000001}
+        - {x: 15, y: -7}
+        - {x: 11, y: -3}
+        - {x: 4, y: -3}
+      - - {x: -6, y: -5}
+        - {x: -5, y: -8}
+        - {x: -2, y: -8}
+        - {x: 0, y: -6}
+        - {x: -1, y: -3}
+        - {x: -4, y: -3}
+      - - {x: -11, y: 6}
+        - {x: -17, y: -2}
+        - {x: -17, y: -5}
+        - {x: 7, y: -5}
+        - {x: 12, y: 1}
+        - {x: 12, y: 3}
+        - {x: 9.000001, y: 6}
+      - - {x: 14, y: 2}
+        - {x: 17, y: 3}
+        - {x: 17, y: 6}
+        - {x: 14, y: 7}
+        - {x: 12, y: 5}
+      - - {x: -5, y: 7}
+        - {x: -2, y: 8}
+        - {x: -2, y: 11}
+        - {x: -5, y: 12}
+        - {x: -7, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c229e9df59425b9e4e6688b02fda4e
+      internalID: 21300132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0022
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 198
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape:
+      - - {x: 12, y: 3}
+        - {x: 9.000001, y: 1}
+        - {x: 8, y: -3}
+        - {x: 11, y: -6}
+        - {x: 13, y: -6}
+        - {x: 18.000002, y: -2}
+        - {x: 18.000002, y: 0}
+        - {x: 15, y: 3}
+      - - {x: -6, y: 1}
+        - {x: -6, y: 0}
+        - {x: -1, y: -4}
+        - {x: 2, y: -3}
+        - {x: 2, y: 0}
+        - {x: -1, y: 3}
+        - {x: -4, y: 3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7562f8e932f1412fa3784c820fbc0d5c
+      internalID: 21300134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      0001: 21300078
+      0002: 21300074
+      0003: 21300114
+      0004: 21300080
+      0005: 21300106
+      0006: 21300096
+      0007: 21300026
+      0008: 21300094
+      0009: 21300030
+      0010: 21300066
+      0011: 21300092
+      0012: 21300012
+      0013: 21300088
+      0014: 21300086
+      0015: 21300056
+      0016: 21300090
+      0017: 21300068
+      0018: 21300110
+      0019: 21300038
+      0020: 21300098
+      0021: 21300120
+      0022: 21300134
+      0023: 21300100
+      0024: 21300008
+      0025: 21300042
+      0026: 21300084
+      0027: 21300122
+      0028: 21300018
+      0029: 21300064
+      0030: 21300118
+      0031: 21300006
+      0032: 21300048
+      blastMark: 21300124
+      blastMark2: 21300102
+      blastMark3: 21300082
+      blastMark4: 21300072
+      bloodSplatter0001: 21300128
+      bloodSplatter0002: 21300062
+      bloodSplatter0003: 21300004
+      bloodSplatter0004: 21300132
+      bloodSplatter0005: 21300010
+      bloodSplatter0006: 21300052
+      bloodSplatter0007: 21300116
+      bloodSplatter0008: 21300036
+      bloodSplatter0009: 21300002
+      bloodSplatter0010: 21300016
+      bloodSplatter0011: 21300076
+      bloodSplatter0012: 21300024
+      bloodSplatter0013: 21300108
+      bloodSplatter0014: 21300022
+      bloodSplatter0015: 21300054
+      bloodSplatter0016: 21300070
+      bloodSplatter0017: 21300040
+      bloodSplatter0018: 21300058
+      bloodSplatter0019: 21300014
+      bloodSplatter0020: 21300126
+      bloodSplatter0021: 21300046
+      bloodSplatter0022: 21300104
+      bloodSplatter0023: 21300020
+      bloodSplatter0024: 21300034
+      bloodSplatter0025: 21300032
+      bloodSplatter0026: 21300028
+      bloodSplatter0027: 21300044
+      bloodSplatter0028: 21300112
+      bloodSplatter0029: 21300000
+      bloodSplatter0030: 21300060
+      bloodSplatter0031: 21300130
+      bloodSplatter0032: 21300050
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Flammable
+  - Limb
+  - NoClear
+  - Map
+  - QuickAccess
+  - RecursiveLayerChild
+  - HeatEffect
+  - ColdEffect
+  - Poolable
+  - NoSoundButton
+  - nitro
+  - World
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Post Processing
+  - Objects
+  - Debris
+  - Bounds
+  - Overlay
+  - CollidingDebris
+  - Portal
+  - LightSprite
+  - ScreenUI
+  - Energy
+  - HoverSurface
+  - ImmobilityField
+  - Gear
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Thumbnail
+  m_SortingLayers:
+  - name: Bottom
+    uniqueID: 334215217
+    locked: 0
+  - name: Background
+    uniqueID: 1370879715
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Portals
+    uniqueID: 182652991
+    locked: 0
+  - name: Foreground
+    uniqueID: 1377110059
+    locked: 0
+  - name: Bubbles
+    uniqueID: 2185794113
+    locked: 0
+  - name: Top
+    uniqueID: 2257819283
+    locked: 0
+  - name: Decals
+    uniqueID: 2607693843
+    locked: 0

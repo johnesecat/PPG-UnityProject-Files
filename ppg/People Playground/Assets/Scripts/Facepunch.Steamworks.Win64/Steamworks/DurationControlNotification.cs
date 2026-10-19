@@ -1,0 +1,14 @@
+namespace Steamworks
+{
+	internal enum DurationControlNotification
+	{
+		None,
+		DurationControlNotification1Hour,
+		DurationControlNotification3Hours,
+		HalfProgress,
+		NoProgress,
+		ExitSoon_3h,
+		ExitSoon_5h,
+		ExitSoon_Night
+	}
+}

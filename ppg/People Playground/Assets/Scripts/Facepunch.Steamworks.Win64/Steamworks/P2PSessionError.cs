@@ -1,0 +1,12 @@
+namespace Steamworks
+{
+	public enum P2PSessionError
+	{
+		None,
+		NotRunningApp,
+		NoRightsToApp,
+		DestinationNotLoggedIn,
+		Timeout,
+		Max
+	}
+}

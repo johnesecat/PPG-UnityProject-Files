@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: RainOverlay
+  m_Shader: {fileID: 4800000, guid: f68e4e3940ef12943a71df381ab0ba53, type: 3}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: abd1f0f4b724c83468f6cd54caa0a343, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise:
+        m_Texture: {fileID: 2800000, guid: 802896150990410438fd2724ee4ad7dc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BlackIsAlpha: 0
+    - _Cutoff: 1
+    - _Density: 0.005009582
+    - _DistortIntensity: 1
+    - _Intensity: 1
+    - _Progress: 1
+    - _Speed: 0.3
+    - _Tiling: 0.1
+    - _TilingN: 0.0001
+    - _Visibility: 2.22
+    m_Colors:
+    - _MeterColour: {r: 1, g: 0, b: 1, a: 1}
+    - _NoiseDirection: {r: 0.033333335, g: 0.03333334, b: 0, a: 0}
+    - _SnowDirection: {r: 25, g: 50, b: 0, a: 0}
+    - _Tint: {r: 0.49056602, g: 0.49056602, b: 0.49056602, a: 0.4745098}

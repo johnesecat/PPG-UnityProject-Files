@@ -1,0 +1,90 @@
+using System;
+using System.Runtime.CompilerServices;
+using NAudio.Utils;
+
+namespace NAudio.Wave
+{
+	public class MonoToStereoProvider16 : IWaveProvider
+	{
+		private readonly IWaveProvider sourceProvider;
+
+		private byte[] sourceBuffer;
+
+		public float LeftVolume
+		{
+			[CompilerGenerated]
+			get
+			{
+				return <LeftVolume>k__BackingField;
+			}
+			[CompilerGenerated]
+			set
+			{
+				<LeftVolume>k__BackingField = value;
+			}
+		}
+
+		public float RightVolume
+		{
+			[CompilerGenerated]
+			get
+			{
+				return <RightVolume>k__BackingField;
+			}
+			[CompilerGenerated]
+			set
+			{
+				<RightVolume>k__BackingField = value;
+			}
+		}
+
+		public WaveFormat WaveFormat
+		{
+			[CompilerGenerated]
+			get
+			{
+				return <WaveFormat>k__BackingField;
+			}
+		}
+
+		public MonoToStereoProvider16(IWaveProvider sourceProvider)
+		{
+			//IL_0019: Unknown result type (might be due to invalid IL or missing references)
+			//IL_0032: Unknown result type (might be due to invalid IL or missing references)
+			//IL_004c: Unknown result type (might be due to invalid IL or missing references)
+			if (sourceProvider.WaveFormat.Encoding != WaveFormatEncoding.Pcm)
+			{
+				throw new ArgumentException("Source must be PCM");
+			}
+			if (sourceProvider.WaveFormat.Channels != 1)
+			{
+				throw new ArgumentException("Source must be Mono");
+			}
+			if (sourceProvider.WaveFormat.BitsPerSample != 16)
+			{
+				throw new ArgumentException("Source must be 16 bit");
+			}
+			this.sourceProvider = sourceProvider;
+			<WaveFormat>k__BackingField = new WaveFormat(sourceProvider.WaveFormat.SampleRate, 2);
+			RightVolume = 1f;
+			LeftVolume = 1f;
+		}
+
+		public int Read(byte[] buffer, int offset, int count)
+		{
+			int num = count / 2;
+			sourceBuffer = BufferHelpers.Ensure(sourceBuffer, num);
+			WaveBuffer waveBuffer = new WaveBuffer(sourceBuffer);
+			WaveBuffer waveBuffer2 = new WaveBuffer(buffer);
+			int num2 = sourceProvider.Read(sourceBuffer, 0, num) / 2;
+			int num3 = offset / 2;
+			for (int i = 0; i < num2; i++)
+			{
+				short num4 = waveBuffer.ShortBuffer[i];
+				waveBuffer2.ShortBuffer[num3++] = (short)(LeftVolume * (float)num4);
+				waveBuffer2.ShortBuffer[num3++] = (short)(RightVolume * (float)num4);
+			}
+			return num2 * 4;
+		}
+	}
+}

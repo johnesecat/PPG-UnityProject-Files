@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Android
+  m_Shader: {fileID: 4800000, guid: 83ef3141a2612d34e8d20e14b6591185, type: 3}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BoneTex:
+        m_Texture: {fileID: 2800000, guid: b41d2d19a33502a4299e3e85f22347d6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DamageTex:
+        m_Texture: {fileID: 2800000, guid: 5cfb24b871f062b4194981854debb77d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FleshTex:
+        m_Texture: {fileID: 2800000, guid: 6f901173d595d0744820f6ab717bf9ff, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 4808430dea74be94d83200fea5a8635c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AcidProgress: 0
+    - _BumpScale: 1
+    - _BurnProgress: 0
+    - _BurnProgressInfluence: 1
+    - _Cutoff: 0.5
+    - _DamageMultiplier: 0.9
+    - _DamagePointCount: 1
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _ElectrocutionIntensity: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _IsZombie: 0
+    - _MetalHeat: 0
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _RottenProgress: 0
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _Temperature: 0
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _BloodColor: {r: 0.2830189, g: 0.2830189, b: 0.2830189, a: 1}
+    - _BruiseColor: {r: 0.3679245, g: 0.3679245, b: 0.3679245, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _ElectroBoneColour: {r: 0, g: 5.050779, b: 8.574187, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FreezeColour: {r: 0.6509434, g: 0.819543, b: 0.8679245, a: 1}
+    - _GlowColour: {r: 95.87451, g: 9.537255, b: 0, a: 1}
+    - _SecondBruiseColor: {r: 0.41509432, g: 0.41509432, b: 0.41509432, a: 1}
+    - _ThirdBruiseColor: {r: 0.6603774, g: 0.52020293, b: 0.52020293, a: 1}
+    - _Zombie: {r: 0.5660378, g: 0.2345929, b: 0.16286935, a: 1}

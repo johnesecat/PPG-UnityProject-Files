@@ -1,0 +1,9 @@
+namespace Steamworks
+{
+	internal enum SteamIPv6ConnectivityState
+	{
+		Unknown,
+		Good,
+		Bad
+	}
+}

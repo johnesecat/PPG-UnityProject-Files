@@ -1,0 +1,10 @@
+namespace Steamworks
+{
+	internal enum ServerMode
+	{
+		Invalid,
+		NoAuthentication,
+		Authentication,
+		AuthenticationAndSecure
+	}
+}

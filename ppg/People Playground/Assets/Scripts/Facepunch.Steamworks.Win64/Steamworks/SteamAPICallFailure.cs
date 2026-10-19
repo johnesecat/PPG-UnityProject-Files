@@ -1,0 +1,11 @@
+namespace Steamworks
+{
+	internal enum SteamAPICallFailure
+	{
+		None = -1,
+		SteamGone,
+		NetworkFailure,
+		InvalidHandle,
+		MismatchedCallback
+	}
+}

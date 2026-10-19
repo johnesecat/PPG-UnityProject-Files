@@ -1,0 +1,10 @@
+namespace Steamworks
+{
+	internal enum NetConfigScope
+	{
+		Global = 1,
+		SocketsInterface,
+		ListenSocket,
+		Connection
+	}
+}

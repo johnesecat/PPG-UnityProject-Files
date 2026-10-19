@@ -1,0 +1,15 @@
+namespace Steamworks
+{
+	public enum NetDebugOutput
+	{
+		None,
+		Bug,
+		Error,
+		Important,
+		Warning,
+		Msg,
+		Verbose,
+		Debug,
+		Everything
+	}
+}

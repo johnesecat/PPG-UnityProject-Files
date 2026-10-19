@@ -1,0 +1,105 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+
+namespace UnityEngine.ResourceManagement.Util
+{
+	public static class ResourceManagerConfig
+	{
+		internal static bool ExtractKeyAndSubKey(object keyObj, out string mainKey, out string subKey)
+		{
+			string text = keyObj as string;
+			if (text != null)
+			{
+				int num = text.IndexOf('[');
+				if (num > 0)
+				{
+					int num2 = text.LastIndexOf(']');
+					if (num2 > num)
+					{
+						mainKey = text.Substring(0, num);
+						subKey = text.Substring(num + 1, num2 - (num + 1));
+						return true;
+					}
+				}
+			}
+			mainKey = null;
+			subKey = null;
+			return false;
+		}
+
+		public static bool IsPathRemote(string path)
+		{
+			return path?.StartsWith("http") ?? false;
+		}
+
+		public static bool ShouldPathUseWebRequest(string path)
+		{
+			return path?.Contains("://") ?? false;
+		}
+
+		public static Array CreateArrayResult(Type type, Object[] allAssets)
+		{
+			Type elementType = type.GetElementType();
+			if (elementType == null)
+			{
+				return null;
+			}
+			int num = 0;
+			Object[] array = allAssets;
+			foreach (Object @object in array)
+			{
+				if (elementType.IsAssignableFrom(@object.GetType()))
+				{
+					num++;
+				}
+			}
+			Array array2 = Array.CreateInstance(elementType, num);
+			int num2 = 0;
+			array = allAssets;
+			foreach (Object object2 in array)
+			{
+				if (elementType.IsAssignableFrom(object2.GetType()))
+				{
+					array2.SetValue(object2, num2++);
+				}
+			}
+			return array2;
+		}
+
+		public static TObject CreateArrayResult<TObject>(Object[] allAssets) where TObject : class
+		{
+			return CreateArrayResult(typeof(TObject), allAssets) as TObject;
+		}
+
+		public static IList CreateListResult(Type type, Object[] allAssets)
+		{
+			Type[] genericArguments = type.GetGenericArguments();
+			IList list = Activator.CreateInstance(typeof(List<>).MakeGenericType(genericArguments)) as IList;
+			Type type2 = genericArguments[0];
+			if (list == null)
+			{
+				return null;
+			}
+			foreach (Object @object in allAssets)
+			{
+				if (type2.IsAssignableFrom(@object.GetType()))
+				{
+					list.Add(@object);
+				}
+			}
+			return list;
+		}
+
+		public static TObject CreateListResult<TObject>(Object[] allAssets)
+		{
+			return (TObject)CreateListResult(typeof(TObject), allAssets);
+		}
+
+		public static bool IsInstance<T1, T2>()
+		{
+			Type typeFromHandle = typeof(T1);
+			return typeof(T2).IsAssignableFrom(typeFromHandle);
+		}
+	}
+}

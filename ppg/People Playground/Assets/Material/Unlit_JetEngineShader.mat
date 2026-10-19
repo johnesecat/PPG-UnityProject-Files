@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Unlit_JetEngineShader
+  m_Shader: {fileID: 4800000, guid: 6f03ba04fb8ac404bb80f2092a39e0ee, type: 3}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Gradient:
+        m_Texture: {fileID: 2800000, guid: 8102f9034307c9f459796908eb45bf69, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RGBANoise:
+        m_Texture: {fileID: 2800000, guid: 9b1da6192a73cd9438fd95c5b4c5f808, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ConeCount: 5
+    m_Colors:
+    - _Tint: {r: 8.0367985, g: 7.1519995, b: 15.999998, a: 1}
+    - _Tint2: {r: 0.303337, g: 1.2296969, b: 2.3174944, a: 1}
+    - _Tint3: {r: 2.3233173, g: 0.18245943, b: 0.18245943, a: 1}

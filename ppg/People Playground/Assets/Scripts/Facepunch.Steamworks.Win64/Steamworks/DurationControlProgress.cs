@@ -1,0 +1,12 @@
+namespace Steamworks
+{
+	public enum DurationControlProgress
+	{
+		Progress_Full,
+		Progress_Half,
+		Progress_None,
+		ExitSoon_3h,
+		ExitSoon_5h,
+		ExitSoon_Night
+	}
+}

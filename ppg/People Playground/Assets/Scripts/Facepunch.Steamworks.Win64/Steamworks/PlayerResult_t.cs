@@ -1,0 +1,11 @@
+namespace Steamworks
+{
+	internal enum PlayerResult_t
+	{
+		FailedToConnect = 1,
+		Abandoned,
+		Kicked,
+		Incomplete,
+		Completed
+	}
+}

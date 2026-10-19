@@ -1,0 +1,479 @@
+fileFormatVersion: 2
+guid: 4196b77dfd2358f45a2009ccf9dc8711
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Boot
+  - first:
+      213: 21300002
+    second: Body
+  - first:
+      213: 21300004
+    second: FrontDoor
+  - first:
+      213: 21300006
+    second: Backgrond
+  - first:
+      213: 21300008
+    second: BackDoor
+  - first:
+      213: 21300010
+    second: Bonnet
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 4
+  maxTextureSize: 247
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 35
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Boot
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 71
+        width: 32
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -10}
+        - {x: -16, y: 10}
+        - {x: 16, y: 10}
+        - {x: 16, y: -10}
+      physicsShape:
+      - - {x: -14, y: 10}
+        - {x: -16, y: 4}
+        - {x: -16, y: -10}
+        - {x: -5, y: -10}
+        - {x: 16, y: 2}
+        - {x: 16, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d230240873469990ba5cdf1d3d344c
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Body
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 247
+        height: 65
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -123.5, y: -32.5}
+        - {x: -123.5, y: 32.5}
+        - {x: 123.5, y: 32.5}
+        - {x: 123.5, y: -32.5}
+      physicsShape:
+      - - {x: 59.5, y: -32.5}
+        - {x: 67.5, y: -12.5}
+        - {x: 95.5, y: -23.5}
+        - {x: 95.5, y: -32.5}
+        - {x: 123.5, y: -32.5}
+        - {x: 123.5, y: -5.5}
+        - {x: 112.50001, y: 3.5}
+        - {x: 89.50001, y: 11.5}
+        - {x: 50.5, y: 15.5}
+        - {x: 22.5, y: 28.5}
+        - {x: 15.5, y: 32.5}
+        - {x: -65.5, y: 32.5}
+        - {x: -95.5, y: 19.5}
+        - {x: -116.50001, y: 16.5}
+        - {x: -123.5, y: 2.5}
+        - {x: -123.5, y: -29.5}
+        - {x: -120.50001, y: -32.5}
+        - {x: -88.5, y: -32.5}
+        - {x: -80.5, y: -11.5}
+        - {x: -52.5, y: -22.5}
+        - {x: -52.5, y: -32.5}
+      - - {x: -39.5, y: -19.5}
+        - {x: -44.5, y: -8.5}
+        - {x: -52.5, y: 0.5}
+        - {x: -60.5, y: 1.5}
+        - {x: -64.5, y: 15.5}
+        - {x: -67.5, y: 18.5}
+        - {x: -54.5, y: 23.5}
+        - {x: -41.5, y: 24.5}
+        - {x: -18.5, y: 26.5}
+        - {x: -18.5, y: 24.5}
+        - {x: -16.5, y: 15.5}
+        - {x: -14.5, y: 7.5}
+        - {x: -10.5, y: -3.5}
+        - {x: -7.5, y: -18.5}
+        - {x: -5.5, y: -22.5}
+      - - {x: 2.5, y: -18.5}
+        - {x: 0.5, y: -6.5}
+        - {x: -1.5, y: 0.5}
+        - {x: -5.5, y: 12.5}
+        - {x: -8.5, y: 24.5}
+        - {x: -9.5, y: 26.5}
+        - {x: 4.5000005, y: 25.5}
+        - {x: 19.5, y: 20.5}
+        - {x: 32.5, y: 14.5}
+        - {x: 34.5, y: 12.5}
+        - {x: 42.5, y: 8.5}
+        - {x: 49.500004, y: 3.5}
+        - {x: 51.500004, y: -5.5}
+        - {x: 52.5, y: -14.5}
+        - {x: 51.500004, y: -15.5}
+        - {x: 49.500004, y: -22.5}
+        - {x: 3.5, y: -22.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0c380f5e8f443f88fd63a23b92567f0
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontDoor
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 69
+        width: 70
+        height: 57
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: -28.5}
+        - {x: -35, y: 28.5}
+        - {x: 35, y: 28.5}
+        - {x: 35, y: -28.5}
+      physicsShape:
+      - - {x: 3, y: 28.5}
+        - {x: -35, y: 28.5}
+        - {x: -35, y: 9.5}
+        - {x: -24, y: -28.5}
+        - {x: 34, y: -28.5}
+        - {x: 35, y: -24.5}
+        - {x: 35, y: 5.5}
+        - {x: 32, y: 23.5}
+      - - {x: -3, y: 10.5}
+        - {x: -4, y: 11.5}
+        - {x: -23, y: 11.5}
+        - {x: -26, y: 15.5}
+        - {x: -26, y: 17.5}
+        - {x: -28, y: 20.5}
+        - {x: -28, y: 23.5}
+        - {x: -29, y: 24.5}
+        - {x: -18.000002, y: 23.5}
+        - {x: -17, y: 22.5}
+        - {x: -13, y: 22.5}
+        - {x: -8, y: 19.5}
+        - {x: -5, y: 19.5}
+        - {x: -2, y: 17.5}
+        - {x: 0, y: 17.5}
+        - {x: 11, y: 11.5}
+        - {x: 15, y: 9.5}
+        - {x: 10, y: 9.5}
+        - {x: 9.000001, y: 10.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d5172bee9744e2da1aa2bb79695e0c6
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Backgrond
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 128
+        width: 201
+        height: 61
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -100.5, y: -30.5}
+        - {x: -100.5, y: 30.5}
+        - {x: 100.5, y: 30.5}
+        - {x: 100.5, y: -30.5}
+      physicsShape:
+      - - {x: 90.5, y: -30.5}
+        - {x: 100.5, y: -28.5}
+        - {x: 100.5, y: -8.5}
+        - {x: 95.5, y: -1.5}
+        - {x: 53.500004, y: 7.5}
+        - {x: 41.5, y: 17.5}
+        - {x: 23.5, y: 30.5}
+        - {x: -66.5, y: 30.5}
+        - {x: -77.5, y: 24.5}
+        - {x: -100.5, y: 0.5}
+        - {x: -100.5, y: -25.5}
+        - {x: -98.5, y: -28.5}
+        - {x: -82.5, y: -30.5}
+        - {x: -66.5, y: -30.5}
+        - {x: -64.5, y: -27.5}
+        - {x: 68.5, y: -27.5}
+        - {x: 68.5, y: -30.5}
+      - - {x: -3.5, y: 14.5}
+        - {x: -5.5, y: 16.5}
+        - {x: -3.5, y: 19.5}
+        - {x: -3.5, y: 25.5}
+        - {x: -4.5000005, y: 26.5}
+        - {x: 2.5, y: 25.5}
+        - {x: 6.5, y: 25.5}
+        - {x: 11.5, y: 22.5}
+        - {x: 17.5, y: 20.5}
+        - {x: 19.5, y: 20.5}
+        - {x: 30.5, y: 14.5}
+        - {x: 33.5, y: 12.5}
+        - {x: 35.5, y: 13.5}
+        - {x: 25.5, y: 17.5}
+        - {x: 23.5, y: 17.5}
+        - {x: 20.5, y: 15.5}
+        - {x: 19.5, y: 13.5}
+        - {x: 15.5, y: 14.5}
+      - - {x: -47.5, y: 25.5}
+        - {x: -44.5, y: 25.5}
+        - {x: -43.5, y: 26.5}
+        - {x: -22.5, y: 26.5}
+        - {x: -22.5, y: 25.5}
+        - {x: -21.5, y: 19.5}
+        - {x: -20.5, y: 15.5}
+        - {x: -46.5, y: 15.5}
+      - - {x: -69.5, y: 19.5}
+        - {x: -62.5, y: 22.5}
+        - {x: -64.5, y: 21.5}
+        - {x: -65.5, y: 16.5}
+        - {x: -66.5, y: 16.5}
+        - {x: -66.5, y: 17.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d611b2136724d3e95a6f835df3137f1
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackDoor
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 69
+        width: 70
+        height: 57
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: -28.5}
+        - {x: -35, y: 28.5}
+        - {x: 35, y: 28.5}
+        - {x: 35, y: -28.5}
+      physicsShape:
+      - - {x: 24, y: 28.5}
+        - {x: -19, y: 28.5}
+        - {x: -26, y: 26.5}
+        - {x: -35, y: 24.5}
+        - {x: -35, y: 4.5000005}
+        - {x: -34, y: -4.5000005}
+        - {x: -25, y: -8.5}
+        - {x: -8, y: -28.5}
+        - {x: 35, y: -28.5}
+        - {x: 35, y: -8.5}
+      - - {x: -9.000001, y: 22.5}
+        - {x: -6, y: 22.5}
+        - {x: -5, y: 23.5}
+        - {x: 16, y: 23.5}
+        - {x: 16, y: 21.5}
+        - {x: 17, y: 16.5}
+        - {x: 18.000002, y: 12.5}
+        - {x: -8, y: 12.5}
+      - - {x: -31, y: 16.5}
+        - {x: -17, y: 21.5}
+        - {x: -16, y: 13.5}
+        - {x: -28, y: 13.5}
+        - {x: -28, y: 14.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be619a2ae1243338a5d2601d95e74ea
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonnet
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 68
+        width: 53
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.5, y: -5}
+        - {x: -26.5, y: 5}
+        - {x: 26.5, y: 5}
+        - {x: 26.5, y: -5}
+      physicsShape:
+      - - {x: 15.5, y: 5}
+        - {x: -26.5, y: 5}
+        - {x: -26.5, y: 0}
+        - {x: 11.5, y: -5}
+        - {x: 26.5, y: -5}
+        - {x: 26.5, y: -1}
+        - {x: 22.5, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb02af75466d4085904fed4d349f7a76
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BackDoor: 21300008
+      Backgrond: 21300006
+      Body: 21300002
+      Bonnet: 21300010
+      Boot: 21300000
+      FrontDoor: 21300004
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
