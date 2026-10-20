@@ -1,0 +1,25 @@
+[package]
+name = "people_playground_web"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bevy = { version = "0.13", default-features = false, features = [
+    "webgl2",
+    "bevy_winit",
+    "bevy_render",
+    "bevy_sprite",
+    "bevy_ui",
+    "bevy_core_pipeline",
+    "bevy_text",
+    "png"
+] }
+wasm-bindgen = "0.2"
+console_error_panic_hook = "0.1"
+getrandom = { version = "0.3.4", features = ["wasm_js"] }
+uuid = { version = "1.15", features = ["js"] }
+
+[profile.release]
+opt-level = 'z'
+lto = true
+codegen-units = 1
