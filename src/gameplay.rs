@@ -87,6 +87,7 @@ fn setup_spawn_menu(mut commands: Commands) {
 
 fn spawn_menu_system(
     mut commands: Commands,
+    asset_server: Res<AssetServer>,
     mut interaction_query: Query<
         (&Interaction, &SpawnCatalogButton, &mut BackgroundColor),
         (Changed<Interaction>, With<Button>),
@@ -102,12 +103,13 @@ fn spawn_menu_system(
                     info!("Spawning catalog item: {}", item_def.name);
 
                     if item_def.id == "human" {
-                        spawn_human_ragdoll(&mut commands, Vec2::new(0.0, 100.0));
+                        spawn_human_ragdoll(&mut commands, &asset_server, Vec2::new(0.0, 100.0));
                     } else {
+                        let texture_handle = asset_server.load(item_def.sprite_path);
                         commands.spawn((
                             SpriteBundle {
+                                texture: texture_handle,
                                 sprite: Sprite {
-                                    color: Color::rgb(0.8, 0.8, 0.8),
                                     custom_size: Some(item_def.size),
                                     ..default()
                                 },

@@ -46,11 +46,19 @@ pub enum LimbType {
     LowerLeg,
 }
 
-pub fn spawn_human_ragdoll(commands: &mut Commands, spawn_pos: Vec2) -> Entity {
+pub fn spawn_human_ragdoll(
+    commands: &mut Commands,
+    asset_server: &Res<AssetServer>,
+    spawn_pos: Vec2,
+) -> Entity {
+    let head_texture = asset_server.load("textures/Head.png");
+    let torso_texture = asset_server.load("textures/Torso.png");
+    let limb_texture = asset_server.load("textures/Limb.png");
+
     let torso = commands.spawn((
         SpriteBundle {
+            texture: torso_texture,
             sprite: Sprite {
-                color: Color::rgb(0.8, 0.6, 0.5),
                 custom_size: Some(Vec2::new(25.0, 45.0)),
                 ..default()
             },
@@ -77,8 +85,8 @@ pub fn spawn_human_ragdoll(commands: &mut Commands, spawn_pos: Vec2) -> Entity {
 
     let head = commands.spawn((
         SpriteBundle {
+            texture: head_texture,
             sprite: Sprite {
-                color: Color::rgb(0.9, 0.7, 0.6),
                 custom_size: Some(Vec2::new(20.0, 20.0)),
                 ..default()
             },
@@ -116,8 +124,8 @@ pub fn spawn_human_ragdoll(commands: &mut Commands, spawn_pos: Vec2) -> Entity {
 
     let upper_left_leg = commands.spawn((
         SpriteBundle {
+            texture: limb_texture,
             sprite: Sprite {
-                color: Color::rgb(0.3, 0.3, 0.6),
                 custom_size: Some(Vec2::new(12.0, 30.0)),
                 ..default()
             },
@@ -153,7 +161,7 @@ pub fn spawn_human_ragdoll(commands: &mut Commands, spawn_pos: Vec2) -> Entity {
         break_force: 1200.0,
     });
 
-    let ragdoll_entity = commands.spawn(HumanRagdoll {
+    commands.spawn(HumanRagdoll {
         head,
         torso,
         upper_left_arm: torso,
@@ -166,9 +174,7 @@ pub fn spawn_human_ragdoll(commands: &mut Commands, spawn_pos: Vec2) -> Entity {
         lower_right_leg: upper_left_leg,
         is_alive: true,
         consciousness: 1.0,
-    }).id();
-
-    ragdoll_entity
+    }).id()
 }
 
 fn ragdoll_balance_system(

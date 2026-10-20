@@ -8,6 +8,9 @@ mod ragdoll;
 mod gore;
 mod catalog;
 
+#[cfg(test)]
+mod tests;
+
 use bevy::prelude::*;
 use menu::MenuPlugin;
 use map::MapPlugin;
