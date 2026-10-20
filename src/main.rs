@@ -2,12 +2,21 @@ mod menu;
 mod map;
 mod touch;
 mod gameplay;
+mod physics;
+mod items;
+mod ragdoll;
+mod gore;
+mod catalog;
 
 use bevy::prelude::*;
 use menu::MenuPlugin;
 use map::MapPlugin;
 use touch::TouchControlsPlugin;
 use gameplay::PhysicsGameplayPlugin;
+use physics::PhysicsPlugin;
+use items::ItemsPlugin;
+use ragdoll::RagdollPlugin;
+use gore::GorePlugin;
 
 fn main() {
     #[cfg(target_arch = "wasm32")]
@@ -23,7 +32,16 @@ fn main() {
             }),
             ..default()
         }))
-        .add_plugins((MenuPlugin, MapPlugin, TouchControlsPlugin, PhysicsGameplayPlugin))
+        .add_plugins((
+            MenuPlugin,
+            MapPlugin,
+            TouchControlsPlugin,
+            PhysicsGameplayPlugin,
+            PhysicsPlugin,
+            ItemsPlugin,
+            RagdollPlugin,
+            GorePlugin,
+        ))
         .add_systems(Startup, setup)
         .run();
 }

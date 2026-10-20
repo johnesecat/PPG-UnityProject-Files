@@ -1,4 +1,7 @@
 use bevy::prelude::*;
+use crate::catalog::get_full_item_catalog;
+use crate::physics::RigidBody2D;
+use crate::ragdoll::spawn_human_ragdoll;
 
 pub struct PhysicsGameplayPlugin;
 
@@ -7,66 +10,33 @@ impl Plugin for PhysicsGameplayPlugin {
         app.add_systems(OnEnter(crate::menu::AppState::InGame), setup_spawn_menu)
             .add_systems(
                 Update,
-                (physics_simulation_system, spawn_menu_system)
-                    .run_if(in_state(crate::menu::AppState::InGame)),
+                spawn_menu_system.run_if(in_state(crate::menu::AppState::InGame)),
             );
     }
 }
 
 #[derive(Component)]
-pub struct RigidBody2D {
-    pub velocity: Vec2,
-    pub angular_velocity: f32,
-    pub mass: f32,
-    pub is_static: bool,
-}
-
-impl Default for RigidBody2D {
-    fn default() -> Self {
-        Self {
-            velocity: Vec2::ZERO,
-            angular_velocity: 0.0,
-            mass: 1.0,
-            is_static: false,
-        }
-    }
-}
-
-#[derive(Component)]
-pub struct EntityCatalogItem {
-    pub name: String,
-    pub category: ItemCategory,
-}
-
-#[derive(Clone, Copy, Debug, PartialEq, Eq)]
-pub enum ItemCategory {
-    Entities,
-    Melee,
-    Firearms,
-    Explosives,
-}
-
-#[derive(Component)]
-pub struct SpawnItemButton {
-    pub category: ItemCategory,
-    pub item_name: String,
+pub struct SpawnCatalogButton {
+    pub item_id: &'static str,
 }
 
 fn setup_spawn_menu(mut commands: Commands) {
-    // Left side spawn menu overlay panel
+    let catalog = get_full_item_catalog();
+
     commands
         .spawn(NodeBundle {
             style: Style {
                 position_type: PositionType::Absolute,
                 left: Val::Px(10.0),
                 top: Val::Px(10.0),
-                width: Val::Px(180.0),
+                width: Val::Px(200.0),
                 height: Val::Percent(90.0),
                 flex_direction: FlexDirection::Column,
                 padding: UiRect::all(Val::Px(10.0)),
+                overflow: Overflow::clip_y(),
                 ..default()
             },
-            background_color: Color::rgba(0.1, 0.1, 0.1, 0.8).into(),
+            background_color: Color::rgba(0.1, 0.1, 0.1, 0.85).into(),
             ..default()
         })
         .with_children(|parent| {
@@ -78,28 +48,18 @@ fn setup_spawn_menu(mut commands: Commands) {
                     ..default()
                 },
             ).with_style(Style {
-                margin: UiRect::bottom(Val::Px(15.0)),
+                margin: UiRect::bottom(Val::Px(10.0)),
                 ..default()
             }));
 
-            let spawn_items = [
-                ("Human", ItemCategory::Entities),
-                ("Android", ItemCategory::Entities),
-                ("Sword", ItemCategory::Melee),
-                ("Pistol", ItemCategory::Firearms),
-                ("AK-47", ItemCategory::Firearms),
-                ("Grenade", ItemCategory::Explosives),
-                ("C4", ItemCategory::Explosives),
-            ];
-
-            for (name, category) in spawn_items {
+            for item in catalog {
                 parent
                     .spawn((
                         ButtonBundle {
                             style: Style {
                                 width: Val::Percent(100.0),
-                                height: Val::Px(35.0),
-                                margin: UiRect::bottom(Val::Px(8.0)),
+                                height: Val::Px(32.0),
+                                margin: UiRect::bottom(Val::Px(6.0)),
                                 justify_content: JustifyContent::Center,
                                 align_items: AlignItems::Center,
                                 ..default()
@@ -107,16 +67,15 @@ fn setup_spawn_menu(mut commands: Commands) {
                             background_color: Color::rgb(0.2, 0.2, 0.2).into(),
                             ..default()
                         },
-                        SpawnItemButton {
-                            category,
-                            item_name: name.to_string(),
+                        SpawnCatalogButton {
+                            item_id: item.id,
                         },
                     ))
                     .with_children(|btn| {
                         btn.spawn(TextBundle::from_section(
-                            name,
+                            item.name,
                             TextStyle {
-                                font_size: 14.0,
+                                font_size: 13.0,
                                 color: Color::WHITE,
                                 ..default()
                             },
@@ -126,77 +85,48 @@ fn setup_spawn_menu(mut commands: Commands) {
         });
 }
 
-fn physics_simulation_system(
-    time: Res<Time>,
-    mut query: Query<(&mut Transform, &mut RigidBody2D)>,
-) {
-    let dt = time.delta_seconds();
-    let gravity = Vec2::new(0.0, -980.0);
-
-    for (mut transform, mut body) in &mut query {
-        if body.is_static {
-            continue;
-        }
-
-        // Apply gravity
-        body.velocity += gravity * dt;
-
-        // Apply translation
-        transform.translation.x += body.velocity.x * dt;
-        transform.translation.y += body.velocity.y * dt;
-
-        // Apply rotation
-        transform.rotate_z(body.angular_velocity * dt);
-
-        // Ground floor collision check at y = -250
-        if transform.translation.y < -250.0 {
-            transform.translation.y = -250.0;
-            body.velocity.y = -body.velocity.y * 0.3; // bounce
-            body.velocity.x *= 0.8; // friction
-        }
-    }
-}
-
 fn spawn_menu_system(
     mut commands: Commands,
     mut interaction_query: Query<
-        (&Interaction, &SpawnItemButton, &mut BackgroundColor),
+        (&Interaction, &SpawnCatalogButton, &mut BackgroundColor),
         (Changed<Interaction>, With<Button>),
     >,
 ) {
+    let catalog = get_full_item_catalog();
+
     for (interaction, spawn_btn, mut bg_color) in &mut interaction_query {
         match *interaction {
             Interaction::Pressed => {
                 *bg_color = Color::rgb(0.4, 0.4, 0.4).into();
-                info!("Spawning entity: {}", spawn_btn.item_name);
+                if let Some(item_def) = catalog.iter().find(|i| i.id == spawn_btn.item_id) {
+                    info!("Spawning catalog item: {}", item_def.name);
 
-                // Spawn entity/item with 2D sprite and physics component
-                commands.spawn((
-                    SpriteBundle {
-                        sprite: Sprite {
-                            color: match spawn_btn.category {
-                                ItemCategory::Entities => Color::rgb(0.9, 0.7, 0.6),
-                                ItemCategory::Melee => Color::rgb(0.7, 0.7, 0.8),
-                                ItemCategory::Firearms => Color::rgb(0.3, 0.3, 0.3),
-                                ItemCategory::Explosives => Color::rgb(0.9, 0.2, 0.2),
+                    if item_def.id == "human" {
+                        spawn_human_ragdoll(&mut commands, Vec2::new(0.0, 100.0));
+                    } else {
+                        commands.spawn((
+                            SpriteBundle {
+                                sprite: Sprite {
+                                    color: Color::rgb(0.8, 0.8, 0.8),
+                                    custom_size: Some(item_def.size),
+                                    ..default()
+                                },
+                                transform: Transform::from_xyz(0.0, 100.0, 1.0),
+                                ..default()
                             },
-                            custom_size: Some(Vec2::new(30.0, 60.0)),
-                            ..default()
-                        },
-                        transform: Transform::from_xyz(0.0, 100.0, 1.0),
-                        ..default()
-                    },
-                    RigidBody2D {
-                        velocity: Vec2::new(0.0, 0.0),
-                        angular_velocity: 0.0,
-                        mass: 1.0,
-                        is_static: false,
-                    },
-                    EntityCatalogItem {
-                        name: spawn_btn.item_name.clone(),
-                        category: spawn_btn.category,
-                    },
-                ));
+                            RigidBody2D {
+                                velocity: Vec2::ZERO,
+                                angular_velocity: 0.0,
+                                mass: item_def.mass,
+                                inertia: item_def.mass * 10.0,
+                                restitution: 0.2,
+                                friction: 0.5,
+                                is_static: false,
+                                size: item_def.size,
+                            },
+                        ));
+                    }
+                }
             }
             Interaction::Hovered => {
                 *bg_color = Color::rgb(0.3, 0.3, 0.3).into();
