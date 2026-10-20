@@ -76,7 +76,6 @@ fn setup_main_menu(mut commands: Commands) {
             MainMenuUI,
         ))
         .with_children(|parent| {
-            // Title
             parent.spawn(TextBundle::from_section(
                 "PEOPLE PLAYGROUND",
                 TextStyle {
@@ -89,7 +88,6 @@ fn setup_main_menu(mut commands: Commands) {
                 ..default()
             }));
 
-            // Menu Options
             let buttons = [
                 ("PLAY", MenuButtonAction::Play),
                 ("MODS", MenuButtonAction::Mods),
@@ -201,7 +199,6 @@ fn setup_map_selection(mut commands: Commands) {
                 ..default()
             }));
 
-            // Grid / List of Maps
             parent
                 .spawn(NodeBundle {
                     style: Style {

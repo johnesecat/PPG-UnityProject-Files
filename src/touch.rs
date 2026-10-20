@@ -32,7 +32,6 @@ pub enum ContextAction {
 }
 
 fn setup_touch_ui(mut commands: Commands) {
-    // Action overlay container at bottom right
     commands
         .spawn(NodeBundle {
             style: Style {
@@ -46,7 +45,6 @@ fn setup_touch_ui(mut commands: Commands) {
             ..default()
         })
         .with_children(|parent| {
-            // Options Button
             parent
                 .spawn((
                     ButtonBundle {
@@ -76,7 +74,6 @@ fn setup_touch_ui(mut commands: Commands) {
                     ));
                 });
 
-            // Fire / Use Button
             parent
                 .spawn((
                     ButtonBundle {
@@ -113,7 +110,6 @@ fn touch_gesture_system(
 ) {
     let touch_vec: Vec<_> = touches.iter().collect();
 
-    // Single touch pan / camera control
     if touch_vec.len() == 1 {
         let touch = touch_vec[0];
         let delta = touch.delta();
@@ -123,9 +119,7 @@ fn touch_gesture_system(
                 transform.translation.y += delta.y * projection.scale;
             }
         }
-    }
-    // Two-finger pinch to zoom and pan
-    else if touch_vec.len() == 2 {
+    } else if touch_vec.len() == 2 {
         let t1 = touch_vec[0];
         let t2 = touch_vec[1];
 

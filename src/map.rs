@@ -15,10 +15,8 @@ pub struct MapTile;
 fn load_map(mut commands: Commands, selected_map: Res<SelectedMap>) {
     info!("Loading map: {}", selected_map.name);
 
-    // Spawn floor / map boundaries according to selected map
     match selected_map.name.as_str() {
         "Abyss" => {
-            // Abyss map layout: Left wall, right wall, far bottom floor
             commands.spawn((
                 SpriteBundle {
                     sprite: Sprite {
@@ -45,7 +43,6 @@ fn load_map(mut commands: Commands, selected_map: Res<SelectedMap>) {
             ));
         }
         _ => {
-            // Default / flat map ground
             commands.spawn((
                 SpriteBundle {
                     sprite: Sprite {
