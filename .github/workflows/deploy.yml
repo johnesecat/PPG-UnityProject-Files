@@ -27,7 +27,7 @@ jobs:
           targets: wasm32-unknown-unknown
 
       - name: Install Trunk
-        run: cargo install trunk
+        run: cargo install trunk --version 0.17.5
 
       - name: Build WASM App with Trunk
         run: |
