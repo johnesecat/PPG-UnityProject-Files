@@ -1,0 +1,32 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>People Playground Web</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background-color: #0d0d0d;
+            touch-action: none;
+            -webkit-user-select: none;
+            user-select: none;
+        }
+        #people_playground_canvas {
+            width: 100vw !important;
+            height: 100vh !important;
+            display: block;
+        }
+    </style>
+
+<link rel="preload" href="/./people_playground_web-c9c09c6638d207c4_bg.wasm" as="fetch" type="application/wasm" crossorigin="">
+<link rel="modulepreload" href="/./people_playground_web-c9c09c6638d207c4.js"></head>
+<body>
+    <canvas id="people_playground_canvas"></canvas>
+
+    <script type="module">import init from '/./people_playground_web-c9c09c6638d207c4.js';init('/./people_playground_web-c9c09c6638d207c4_bg.wasm');</script>
+
+
+</body></html>
