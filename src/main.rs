@@ -26,7 +26,7 @@ fn main() {
         .add_plugins(DefaultPlugins.set(WindowPlugin {
             primary_window: Some(Window {
                 title: "People Playground Web".into(),
-                canvas: Some("#your_canvas_id".into()),
+                canvas: Some("#people_playground_canvas".into()),
                 prevent_default_event_handling: false,
                 ..default()
             }),

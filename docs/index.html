@@ -14,18 +14,19 @@
             -webkit-user-select: none;
             user-select: none;
         }
-        canvas {
+        #people_playground_canvas {
             width: 100vw !important;
             height: 100vh !important;
             display: block;
         }
     </style>
 
-<link rel="preload" href="/people_playground_web-22145376a7912251_bg.wasm" as="fetch" type="application/wasm" crossorigin="">
-<link rel="modulepreload" href="/people_playground_web-22145376a7912251.js"></head>
+<link rel="preload" href="/./people_playground_web-c9c09c6638d207c4_bg.wasm" as="fetch" type="application/wasm" crossorigin="">
+<link rel="modulepreload" href="/./people_playground_web-c9c09c6638d207c4.js"></head>
 <body>
+    <canvas id="people_playground_canvas"></canvas>
 
-    <script type="module">import init from '/people_playground_web-22145376a7912251.js';init('/people_playground_web-22145376a7912251_bg.wasm');</script>
+    <script type="module">import init from '/./people_playground_web-c9c09c6638d207c4.js';init('/./people_playground_web-c9c09c6638d207c4_bg.wasm');</script>
 
 
 </body></html>

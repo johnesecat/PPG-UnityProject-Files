@@ -1609,7 +1609,7 @@ function __wbg_get_imports() {
     };
     return {
         __proto__: null,
-        "./people_playground_web-22145376a7912251_bg.js": import0,
+        "./people_playground_web-c9c09c6638d207c4_bg.js": import0,
     };
 }
 
@@ -2046,7 +2046,7 @@ async function __wbg_init(module_or_path) {
     }
 
     if (module_or_path === undefined) {
-        module_or_path = new URL('people_playground_web-22145376a7912251_bg.wasm', import.meta.url);
+        module_or_path = new URL('people_playground_web-c9c09c6638d207c4_bg.wasm', import.meta.url);
     }
     const imports = __wbg_get_imports();
 
